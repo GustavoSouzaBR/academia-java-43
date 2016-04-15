@@ -1,0 +1,27 @@
+public class Aula4_4_Arrays_lab {
+    
+    public static void main(String[] args) {
+        
+         String[][] alunos = new String [3][3];
+         
+         alunos [0][0] = "Aluno 1";
+         alunos [0][1] = "Aluno 2";
+         alunos [0][2] = "Aluno 3";
+         alunos [1][0] = "Aluno 4";
+         alunos [1][1] = "Aluno 5";
+         alunos [1][2] = "Aluno 6";
+         alunos [2][0] = "Aluno 7";
+         alunos [2][1] = "Aluno 8";
+         alunos [2][2] = "Aluno 9";
+         
+        
+         for (int i = 0 ; i  < alunos.length ; i++){
+             
+             for (int j = 0; j < alunos[i].length ; j++) {
+                 
+                 System.out.println("Aluno" + alunos[i][j]);
+                 
+             }
+         }
+    }
+}
